@@ -1,5 +1,5 @@
 Summary:	Wrapper for running old Infocom text games
-Summary(pl):	Wrapper dla uruchamiania starych tekstówek Infocomu
+Summary(pl):	Wrapper do uruchamiania starych tekstówek Infocomu
 Name:		zcode-wrapper
 Version:	1.0
 Release:	1
@@ -7,18 +7,16 @@ License:	GPL
 Group:		Applications/Games
 Source0:	zcode-wrapper.sh
 Requires:	zcode-interpreter
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Wrapper for running old Infocom text games.
 
 %description -l pl
-Wrapper dla uruchamiania starych tekstówek Infocomu.
+Wrapper do uruchamiania starych tekstówek Infocomu.
 
 %prep
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
