@@ -1,5 +1,5 @@
 Summary:	Wrapper for running old Infocom text games
-Summary(pl.UTF-8):   Wrapper do uruchamiania starych tekstówek Infocomu
+Summary(pl.UTF-8):	Wrapper do uruchamiania starych tekstówek Infocomu
 Name:		zcode-wrapper
 Version:	1.0
 Release:	1
